@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="gorro-2">
+        <div class="linea"></div>
+    </div>
+    <div class="gorro-1"></div>
+    <div id="up">
+        <div class="ojo"></div>
+        <div class="ojo"></div>
+    </div>
+    <div id="line"></div>
+    <div id="cuello"></div>
+    <div id="down"></div>
+
+    <style>
+        #down {
+            width: 100px;
+            height: 100px;
+            background-color: #FFFFFF;
+            border-radius: 50%;
+            position: absolute;
+            top: 145px;
+        }
+        
+        body {
+            background-color: #AC474B;
+            display: flex;
+            justify-content: center;
+            height: 300px;
+        }
+        
+        #cuello {
+            background-color: #FFA63F;
+            width: 60px;
+            height: 10px;
+            position: absolute;
+            border-radius: 10px;
+            top: 143px;
+            z-index: 100;
+        }
+        
+        #line {
+            background-color: #AC474B;
+            position: absolute;
+            width: 200px;
+            height: 18px;
+            top: 139px;
+            z-index: 99;
+        }
+        
+        #up {
+            width: 60px;
+            height: 60px;
+            background-color: #FFFFFF;
+            border-radius: 50%;
+            position: absolute;
+            top: 95px;
+            display: flex;
+        }
+        
+        .ojo:nth-child(2) {
+            margin-left: 10px;
+        }
+        
+        .ojo {
+            background-color: #0E1F2B;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-left: 15px;
+            margin-top: 18px;
+        }
+        
+        .gorro-1 {
+            background-color: #0E1F2B;
+            width: 60px;
+            height: 5px;
+            position: absolute;
+            top: 95px;
+            z-index: 101;
+        }
+        
+        .gorro-2 {
+            background-color: #0E1F2B;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 55px;
+            z-index: 101;
+            display: flex;
+            align-items: center;
+        }
+        
+        .linea {
+            background-color: #FFFFFF;
+            width: 40px;
+            height: 10px;
+        }
+    </style>
+</body>
+
+</html>
